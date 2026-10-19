@@ -1,0 +1,5 @@
+pio pkg install --global --platform "platformio/espressif32"
+pio pkg install --global --tool "platformio/framework-espidf"
+pio pkg install --global --tool "platformio/tool-cmake"
+pio pkg install --global --tool "platformio/tool-ninja"
+pio pkg install --global --tool "platformio/toolchain-xtensa-esp32"
